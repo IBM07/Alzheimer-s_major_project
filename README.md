@@ -1,1 +1,0 @@
-# Alzheimer-s_major_project
