@@ -93,8 +93,7 @@ if selected =='Home':
 if selected =='About US':
     def app():
         st.title('Welcome!')
-        st.write('This web app uses a CNN model to recognize the presence of Alzheimer diasease in any age group. Leaving behind the traditional method of MRI Scans you can now get yourself checked through our protable web APP and you can get your report within no time.')
-        st.write('This web app is a MINi Project made by Shubham Shinde')
+        st.write('This web app uses a CNN model to recognize the presence of Alzheimer diasease in any age group. Leaving behind the traditional method of MRI Scans you can now get yourself checked through our protable web APP.')
 
 if selected=='Alzhiemer Detection':
   def app():
@@ -211,4 +210,5 @@ if selected=='Alzhiemer Detection':
 
 # Run the app
 if __name__ == '__main__':
+
     app()
